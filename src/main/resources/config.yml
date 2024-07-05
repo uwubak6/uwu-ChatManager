@@ -1,0 +1,58 @@
+#plugin napisany przez uwubak <3
+#jesli masz jakis problem z pluginem zglos
+#sie na naszym discordzie!
+
+#przyklad typu TITLE_SUBTITLE: Witaj %NEWLINE% graczu [%NEWLINE% rozdziela title od subtitle!]
+
+#
+
+#dostepny typy: [CHAT, TITLE, SUBTITLE, TITLE_SUBTITLE, ACTION_BAR]
+
+no-permission:
+  type: CHAT
+  message: '&cNie posiadasz permisji!'
+
+usage:
+  type: CHAT
+  message: '&7Poprawne uzycie: &f/chat on / off / clear / reload'
+
+chat-on:
+  type: CHAT
+  message: '&aChat Zostal pomyslnie wlaczony przez administratora {PLAYER}'
+
+chat-is-on:
+  type: CHAT
+  message: '&cChat jest juz &4&lWlaczony!'
+
+chat-off:
+  type: CHAT
+  message: '&aChat zostal pomyslnie wylaczony przez administratora {PLAYER}'
+
+chat-is-off:
+  type: CHAT
+  message: '&cChat jest juz &4&lWylaczony!'
+
+chat-clear:
+  type: CHAT
+  message: '&aChat zostal pomyslnie wyczyszczony przez administratora &2{PLAYER}'
+
+reload:
+  type: CHAT
+  message: '&aPomyslnie przeladowano konfiguracje pluginu!'
+
+words:
+  type: CHAT
+  message: '&cWykryto niedozwolone slowo!'
+
+chat-blocked:
+  type: CHAT
+  message: '&cChat jest aktualnie wylaczony!'
+
+#wysyla wiadomosc o wlaczeniu/wylaczeniu chatu do wszystkich graczy
+chat-alerts: true
+
+blocked-words:
+  - 'shit'
+  - 'ass'
+  - 'poop'
+  - 'fuck'
